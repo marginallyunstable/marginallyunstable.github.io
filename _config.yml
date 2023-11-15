@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Marginally-Unstable"
 title_separator          : "-"
 name                     : &name "Ajinkya Bhole"
-description              : &description "A systems and controls engineer who enjoys animating inanimate things."
+description              : &description "A systems and controls engineer who enjoys animating inanimate thingies."
 url                      : https://marginallyunstable.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "marginallyunstable/marginallyunstable.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ajinkya Bhole"
   avatar           : "myself.jpg"
-  bio              : "A systems and controls engineer who enjoys animating inanimate things."
+  bio              : "A systems and controls engineer who enjoys animating inanimate thingies."
   location         : "Eindhoven, NL"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
