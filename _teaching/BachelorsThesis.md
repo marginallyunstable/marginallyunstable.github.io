@@ -20,4 +20,4 @@ performed.
 
 [Link to Thesis](/files/BachelorsThesis.pdf)
 
-[![Video](https://youtu.be/GXY6U_79axM/default.jpg)](https://youtu.be/GXY6U_79axM)
+![Video](https://youtu.be/GXY6U_79axM)

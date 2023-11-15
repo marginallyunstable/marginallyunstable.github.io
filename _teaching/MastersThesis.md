@@ -20,4 +20,4 @@ This work introduces KriCatch 1.0, the result of the first design iteration for 
 
 [Link to Thesis](/files/MastersThesis.pdf)
 
-[![Video](https://youtu.be/oVQNLM9X-ik/default.jpg)](https://youtu.be/oVQNLM9X-ik)
+![Video](https://youtu.be/oVQNLM9X-ik)
