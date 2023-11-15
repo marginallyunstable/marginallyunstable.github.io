@@ -12,7 +12,7 @@ location: "India"
 
 [Video](https://youtu.be/GXY6U_79axM)
 
-[Stair Robot](/images/stairrobot.png){: .align-center}
+![Stair Robot](/images/stairrobot.png){: .align-center}
 
 This work discusses the concept and parameter design of a robust stair-climbing compliant modular
 robot, capable of tackling stairs with overhangs. Geometry modifications of the periphery of the wheels
