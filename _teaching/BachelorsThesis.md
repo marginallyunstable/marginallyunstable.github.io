@@ -8,9 +8,7 @@ date: 2015-01-01
 location: "City, Country"
 ---
 
-<p align="center">
-  ![](/images/stairrobot.png)
-</p>
+![](/images/stairrobot.png)
 
 This work discusses the concept and parameter design of a robust stair-climbing compliant modular
 robot, capable of tackling stairs with overhangs. Geometry modifications of the periphery of the wheels
