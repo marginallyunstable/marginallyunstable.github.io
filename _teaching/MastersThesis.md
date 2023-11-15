@@ -1,14 +1,14 @@
 ---
 title: "Towards KriCatch, A Slip Catching practice system for the game of Cricket"
 collection: teaching
-type: "Undergraduate course"
+type: "Masters Thesis"
 permalink: /teaching/MastersThesis
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: #"University 1, Department"
+date: #2014-01-01
+location: #"City, Country"
 ---
 
-![](/images/kricatch.png)
+![KriCatch](/images/kricatch.png)
 
 > "..Sports is actually a chance for us to have other human beings push us to excel"
 > <p style="text-align: right;">— -John Keating, (Robin William’s character in Dead Poet’s Society)</p>

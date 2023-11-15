@@ -1,14 +1,14 @@
 ---
 title: "Design of a Robust Stair Climbing Compliant Modular Robot to Tackle Overhang on Stairs"
 collection: teaching
-type: "Workshop"
+type: "Bachelors Thesis"
 permalink: /teaching/BachelorsThesis
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: #"University 1, Department"
+date: #2015-01-01
+location: #"City, Country"
 ---
 
-![](/images/stairrobot.png)
+![Stair Robot](/images/stairrobot.png)
 
 This work discusses the concept and parameter design of a robust stair-climbing compliant modular
 robot, capable of tackling stairs with overhangs. Geometry modifications of the periphery of the wheels
