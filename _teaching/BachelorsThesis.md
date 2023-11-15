@@ -8,9 +8,7 @@ date: 2016-06-31
 location: "India"
 ---
 
-[Link to Thesis](/files/BachelorsThesis.pdf)
-
-[Video](https://youtu.be/GXY6U_79axM)
+[Link to Thesis](/files/BachelorsThesis.pdf), [Video](https://youtu.be/GXY6U_79axM)
 
 ![Stair Robot](/images/stairrobot.png){: .align-center}
 
