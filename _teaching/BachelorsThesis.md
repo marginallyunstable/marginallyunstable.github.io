@@ -3,9 +3,9 @@ title: "Design of a Robust Stair Climbing Compliant Modular Robot to Tackle Over
 collection: teaching
 type: "Bachelors Thesis"
 permalink: /teaching/BachelorsThesis
-#venue: " "
+venue: "BITS Pilani - Pilani Campus"
 date: 2016-06-31
-#location: "City, Country"
+location: "India"
 ---
 
 ![Stair Robot](/images/stairrobot.png){: .align-center}

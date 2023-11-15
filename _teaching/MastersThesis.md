@@ -3,9 +3,9 @@ title: "Towards KriCatch, A Slip Catching practice system for the game of Cricke
 collection: teaching
 type: "Masters Thesis"
 permalink: /teaching/MastersThesis
-#venue: #"University 1, Department"
+venue: "University of Twente"
 date: 2018-06-31
-#location: #"City, Country"
+location: "The Netherlands"
 ---
 
 ![KriCatch](/images/kricatch.png){: .align-center}
