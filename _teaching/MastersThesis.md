@@ -8,7 +8,7 @@ date: 2018-06-31
 location: "The Netherlands"
 ---
 
-[Link to Thesis](/files/MastersThesis.pdf), [Video](https://youtu.be/oVQNLM9X-ik)
+[Thesis](/files/MastersThesis.pdf), [Video](https://youtu.be/oVQNLM9X-ik)
 
 ![KriCatch](/images/kricatch.png){: .align-center}
 
