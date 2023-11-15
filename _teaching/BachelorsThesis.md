@@ -4,7 +4,7 @@ collection: teaching
 type: "Bachelors Thesis"
 permalink: /teaching/BachelorsThesis
 #venue: " "
-date: 2016
+date: 2016-06-31
 #location: "City, Country"
 ---
 

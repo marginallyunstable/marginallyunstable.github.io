@@ -4,7 +4,7 @@ collection: teaching
 type: "Masters Thesis"
 permalink: /teaching/MastersThesis
 #venue: #"University 1, Department"
-date: 2018
+date: 2018-06-31
 #location: #"City, Country"
 ---
 
