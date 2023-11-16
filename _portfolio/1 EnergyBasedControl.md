@@ -1,6 +1,6 @@
 ---
 title: "Energy based approach for Variable Impedance Control of Robotic Manipulators"
-excerpt: "<br/><img src='/images/energytank.jpg'>"
+excerpt: "<br/><img src='/images/energytank.jpg'  width='300'>"
 collection: portfolio
 ---
 
