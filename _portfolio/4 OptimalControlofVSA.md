@@ -1,6 +1,6 @@
 ---
 title: "Optimal Control of Variable Stiffness Actuator for a Catching Task"
-excerpt: "<br/><img src='/images/catch.png'>"
+excerpt: "<br/><img src='/images/catch.png' width='300'>"
 collection: portfolio
 ---
 
