@@ -1,6 +1,6 @@
 ---
 title: "Bond-Graph based Modeling and Simulation of BallBot"
-excerpt: "<br/><img src='/images/ballbot.png' width='600'>"
+excerpt: "<br/><img src='/images/ballbot.png' width='500'>"
 collection: portfolio
 ---
 

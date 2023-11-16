@@ -1,6 +1,6 @@
 ---
 title: "In Hand Manipulation using Extrinsic Dexterity"
-excerpt: "<br/><img src='/images/inhand.png'  width='300'>"
+excerpt: "<br/><img src='/images/inhand.png'  width='500'>"
 collection: portfolio
 ---
 
