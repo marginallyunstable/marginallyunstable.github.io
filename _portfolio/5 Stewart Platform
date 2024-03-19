@@ -4,8 +4,11 @@ excerpt: "<br/><img src='/images/StewartPlatform.jog' width='200'>"
 collection: portfolio
 ---
 
-[Report](/files/Stewart.pdf)
-
+[Report](/files/Stewart.pdf) 
+<video width="640" height="360" controls>
+  <source src="https://www.youtube.com/watch?v=9KdgB3Wsj1o" type="video/mp4">
+  Stewart Platform
+</video>
 
 This work documents the kinematic analysis, simulation and implementation of 6 DOF 
 Stewart platform. The report also discusses the manufacturing process flow that was 
