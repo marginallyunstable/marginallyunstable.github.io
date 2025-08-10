@@ -18,5 +18,5 @@ main:
   - title: "Lets Discuss"
     url: /markdown/
 
-  - title: "CV"
-    url: /files/CV.pdf
+  # - title: "CV"
+  #   url: /files/CV.pdf
