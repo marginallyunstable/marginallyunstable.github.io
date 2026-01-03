@@ -7,7 +7,7 @@ venue: 'ICRA 2026'
 status: submitted
 ---
 
-![PDDP](/images/PDDP.png){: .align-center width="500px"}
+![PDDP](/images/PDDP.png){: .align-center width="800px"}
 
 Derivative-based optimal control methods, such as Differential Dynamic Programming, are highly sample-efficient due to their direct use of gradient information. However, they often struggle or fail when the optimization landscape is non-smooth or discontinuous.
 
