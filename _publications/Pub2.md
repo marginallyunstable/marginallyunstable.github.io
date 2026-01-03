@@ -15,5 +15,5 @@ Derivative-free approaches like Reinforcement Learning, in contrast, have demons
 
 In this work, we present a principled framework for unifying these approaches. We further introduce an algorithmic speed-up by exploiting recent insights into the equivalence between risk-neutral and risk-sensitive stochastic optimal control for systems with deterministic dynamics.
 
-[Link to paper](/files/ICRA26_1204_MS.pdf)
+<!-- [Link to paper](/files/ICRA26_1204_MS.pdf) -->
 [Video presentation](https://youtu.be/X3Nd-zaOrAo)
