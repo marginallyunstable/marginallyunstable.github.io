@@ -3,7 +3,8 @@ title: "Why Smooth Randomly if You Can Smooth Principledly: Locally Smoothed Tra
 collection: publications
 permalink: /publication/Pub2
 date: Submitted in Sept 2025
-venue: 'Submitted to ICRA 2026'
+venue: 'ICRA 2026'
+status: submitted
 ---
 
 Derivative-based optimal control methods, such as Differential Dynamic Programming, are highly sample-efficient due to their direct use of gradient information. However, they often struggle or fail when the optimization landscape is non-smooth or discontinuous.
