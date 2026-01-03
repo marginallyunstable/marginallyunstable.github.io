@@ -7,6 +7,8 @@ venue: 'ICRA 2026'
 status: submitted
 ---
 
+![PDDP](/images/PDDP.png){: .align-center width="500px"}
+
 Derivative-based optimal control methods, such as Differential Dynamic Programming, are highly sample-efficient due to their direct use of gradient information. However, they often struggle or fail when the optimization landscape is non-smooth or discontinuous.
 
 Derivative-free approaches like Reinforcement Learning, in contrast, have demonstrated remarkable success in optimizing non-smooth objectives. This flexibility, however, typically comes at the cost of significant sample inefficiency. Recent research has revealed that Reinforcement Learning effectively performs randomized smoothing under the hood, enabling it to implicitly extract gradient information even in non-smooth settings. By combining this insight with techniques from derivative-based optimal control, it becomes possible to leverage the best of both worlds: sample efficiency alongside robustness to non-smooth optimization landscapes.
