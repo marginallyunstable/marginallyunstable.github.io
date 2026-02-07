@@ -1,27 +1,25 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+ruby "3.4.1"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3.3"
+gem "webrick"            # needed for `jekyll serve` on Ruby 3+
+gem "base64"             # Ruby 3.4 does not ship it by default
+gem "logger"             # Ruby 3.5 will not ship it by default
+gem "csv"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
+gem "kramdown-parser-gfm"
+gem "no-style-please"
 
-# gem "jekyll"
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-remote-theme"
+  gem "jekyll-seo-tag"
 end
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo"
+  gem "tzinfo-data"
+end
+
+gem "wdm", platforms: [:mingw, :x64_mingw, :mswin]
