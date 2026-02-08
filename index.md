@@ -17,30 +17,38 @@ layout: default
     <hr />
     <div class="row justify-content-center links text-center my-2">
         <div class="col-auto mx-auto">
-            <a data-target="highlights" class="content-button">Highlights</a>
+            <a data-target="news" class="content-button">News</a>
+        </div>
+        <div class="col-auto mx-auto">
+            <a data-target="research" class="content-button">Research</a>
         </div>
         <div class="col-auto mx-auto">
             <a data-target="publications" class="content-button">Publications</a>
         </div>
         <div class="col-auto mx-auto">
+            <a data-target="thesis" class="content-button">Thesis</a>
+        </div>
+        <div class="col-auto mx-auto">
+            <a data-target="projects" class="content-button">Projects</a>
+        </div>
+        <div class="col-auto mx-auto">
             <a data-target="teaching" class="content-button">Teaching</a>
         </div>
         <div class="col-auto mx-auto">
-            <a data-target="join" class="content-button">Join</a>
-        </div>
-        <div class="col-auto mx-auto">
-            <a data-target="other" class="content-button">Other</a>
+            <a data-target="notes" class="content-button">Notes from the Underground</a>
         </div>
         
     </div>
     <hr />
     <div class="row justify-content-center">
         <div class="col-12">
-            <div id="highlights-container" class="content-section d-none"> {% include highlights.html %} </div>
+            <div id="news-container" class="content-section d-none"> {% include news.html %} </div>
+            <div id="research-container" class="content-section d-none"> {% include research.html %} </div>
             <div id="publications-container" class="content-section d-none"> {% include publications.html %} </div>
+            <div id="projects-container" class="content-section d-none"> {% include projects.html %} </div>
+            <div id="thesis-container" class="content-section d-none"> {% include thesis.html %} </div>
+            <div id="notes-container" class="content-section d-none"> {% include notes.html %} </div>
             <div id="teaching-container" class="content-section d-none"> {% include teaching.html %} </div>
-            <div id="join-container" class="content-section d-none"> {% include join.html %} </div>
-            <div id="other-container" class="content-section d-none"> {% include other.html %} </div>
         </div>
     </div>
 </div>

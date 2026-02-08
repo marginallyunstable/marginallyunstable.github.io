@@ -129,6 +129,29 @@ a:not(:has(> img)):hover::after {
   @include font-size(1.5rem);
 }
 
+/* Reduce spacing between tagline and links and slightly shrink link text */
+.header .tagline {
+  margin-bottom: 0.25rem;
+}
+.links {
+  margin-top: 0.25rem;
+}
+.links a {
+  font-size: 1rem !important;
+}
+
+/* Quote styling under header */
+.header-quote blockquote {
+  font-style: italic;
+  margin: 0;
+  font-size: 1.00rem;
+}
+.header-quote small {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+}
+
 @media (min-width: 500px){
   .links a {
     @include font-size(1.25rem)
@@ -166,7 +189,36 @@ div.paper p {
 }
 
 div.research p{
-	margin-bottom: 1rem;
+ 	margin-bottom: 1rem;
+  font-size: 0.98rem;
+}
+
+/* Slightly smaller text for project descriptions */
+.projects-list .project-item p {
+  margin-bottom: 0.75rem;
+  font-size: 0.98rem;
+}
+
+/* Ensure research descriptions are slightly smaller as well */
+.research-list .research-item p {
+  margin-bottom: 0.75rem;
+  font-size: 0.98rem;
+}
+
+/* Stronger selectors to apply when inside content sections (overrides) */
+.content-section .projects-list .project-item p,
+.content-section .research-list .research-item p {
+  font-size: 1.1rem !important;
+}
+
+/* Slightly smaller text for teaching descriptions */
+.teaching-list p {
+  margin-bottom: 0.75rem;
+  font-size: 0.98rem;
+}
+
+.content-section .teaching-list p {
+  font-size: 0.95rem !important;
 }
 
 hr.dashed {

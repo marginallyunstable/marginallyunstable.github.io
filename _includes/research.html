@@ -1,52 +1,39 @@
-<div class="row justify-content-center">
-	<div class="col-12 col-md-9 py-2 research">
-		<h3> Research </h3>
-
-		<p> I am curious about how robots reason about <b>uncertainty</b> in their environment, whether it comes from <b>inaccurate models</b> of the world or their dynamics, uncertain <b>state estimates</b>, or the actions of <b>other agents</b>.</p>
-
-		<p>My aim is to use tools from <b>nonlinear control</b>, <b>Bayesian estimation</b>, and modern, learning-based <b>computer vision</b> to build robots that can properly estimate their risk online, and respond accordingly. I am excited particularly by applications like <b> manipulation </b> and <b> locomotion </b> where lack of robustness is a key limitation to these systems being deployed in the real world.</p>
-	</div>
-</div>
-
-{% include divider.html %}
-
-<div class="row justify-content-center">
-	<div class="col-12 col-md-9 py-2">
-
-		<div class="row">
-			<h3> Publications </h3>
-			<p> * denotes equal contribution. Representative papers are <mark>highlighted.</mark></p>
+<div class="research-list">
+  <div class="research-item">
+    <h3>Consolidating Probabilistic Optimal Control</h3>
+	<div class="row align-items-center">
+		<div class="col-md-6">
+			<p class="text-center">
+				<img src="/assets/img/itsallconnected.png" alt="It's all connected" class="img-fluid" style="max-width:350px;" />
+			</p>
 		</div>
-
-		{% assign papers_sorted = site.papers | sort: "date" | reverse %}
-		{% for paper in papers_sorted %}
-
-			{% if paper.highlight %}
-				{% assign highlight = "mark" %}
-			{% else %}
-				{% assign highlight = "" %}
-			{% endif %}
-
-			<div class="row justify-content-center py-4 {{highlight}}">
-
-				<div class="col-8 col-md-3 align-items-center my-auto py-4">
-					<img class="img-fluid" src="{{paper.image}}" />
-				</div>
-
-				<div class="col-10 col-md-9 paper my-auto">
-		    		<p><b>{{paper.title}}</b></p> 
-		    		{{ paper.authors | markdownify }}
-		    		<p> <i>{{paper.location}},</i> {{paper.date | date: "%Y"}}. <i><b> {{paper.notes}} </b></i><b><span class="text-danger">{{paper.awards}}</span></b></p>
-		    		<p> {% if paper.pdf %} [<a href="{{paper.pdf}}">PDF</a>]  {% endif %}
-		    			{% if paper.website %} [<a href="{{paper.website}}">project page</a>] {% endif %}
-		    			{% if paper.code %} [<a href="{{paper.code}}">code</a>] {% endif %}
-		    			{% if paper.video %} [<a href="{{paper.video}}">video</a>] {% endif %} </p>
-
-		    		<br>
-		    		<p>{{paper.content}}</p>
-		    	</div>
-
-		    </div>
-		{% endfor %}
+		<div class="col-md-6">
+			<p>
+				When I dove into the current landscape of probabilistic optimal control, I saw a lot of brilliant but isolated crowds. We have Control-as-Inference, Risk-Sensitive Control, Entropy-Regularized RL, and Distributionally Robust Control, all growing into rich parallel directions. But somewhere, somehow, I feel like these are just distant cousins stuck in their own silos, speaking different dialects of the same math. Would be nice is to bring these cousins together for a massive family reunion. I'm trying to build a unifying framework that invites everyone to the same table, breaking down the walls so we can finally see how they relate.
+			</p>
+		</div>
 	</div>
+  </div>
+
+  <div class="research-item mt-4">
+    <h3>Planning through Contact by smoothing the rough edges</h3>
+	<p class="text-center">
+	  <img src="/assets/img/poc.svg" alt="Bridge RL and Control" class="img-fluid" style="max-width:850px;" />
+	</p>
+    <p>
+      When robots interact with the real world e.g. pushing boxes, walking on gravel, or sliding objects, their physics gets messy. In math terms, it gets "non-smooth," full of sudden impacts and friction that break traditional optimal control algorithms.
+    </p>
+    <p>
+      A classic standoff in robotics:
+    </p>
+    <p>
+		<em>Optimal Control</em>: techniques are incredibly efficient and precise. They love smooth curves but completely panic when they hit a "sharp corner" like a contact event, because their gradients basically disappear or explode.
+		</p>
+    <p>
+      <em>Reinforcement Learning</em>: techniques don't care about smooth gradients. They learn by trying everything (stochasticity), effectively averaging over the bumps to find a solution. It works surprisingly well on rough terrain, but it’s "sample hungry" i.e. it takes forever to learn simple tasks because it’s flying blind without derivative information.
+    </p>
+    <p>
+      I'm working on methods that take the stochastic "swagger" of RL (randomized smoothing) and inject it into the structured "brains" of Optimal Control. By adding noise and scheduling it appropriately, we can "smooth out" those sharp contact events, tricking the efficient solvers into working on rough problems. This way, we can get the best of both worlds: the efficiency of optimal control and the smoothening effect of RL, enabling robots to plan through contact without needing millions of trials.
+    </p>
+  </div>
 </div>

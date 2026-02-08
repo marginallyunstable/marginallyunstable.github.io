@@ -1,0 +1,87 @@
+<div class="projects-list">
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/energytank.jpg" alt="Energy based control" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Internship) Energy based approach for Variable Impedance Control of Robotic Manipulators</h3>
+      <p>How do you ensure a robot is stiff enough to be precise, but compliant enough to be safe around humans? In this project, I implemented Energy-Based Impedance Control. By introducing a virtual "energy tank" into the control loop, I could regulate the system's dynamics to ensure the robot remains passive, and therefore stable, during interaction. This approach allows us to vary the robot's stiffness in real-time, useful for tasks like needle insertion where the resistance of the tissue changes constantly.</p>
+    <p>Files: <a href="/assets/files/Final_Internship_Report.pdf" target="_blank" rel="noopener">Internship Report</a></p>
+    <p>Video: <a href="https://youtu.be/-qzTmKW6OAI" target="_blank" rel="noopener">Energy Tank Control Demo</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/inhand.png" alt="In Hand Manipulation" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Study Project) In Hand Manipulation using Extrinsic Dexterity</h3>
+    <blockquote class="mb-3">
+      <p><em>"The dexterity of the hand is mostly about the brain and not the hand." — Matt Mason</em></p>
+    </blockquote>
+    <p>Extrinsic Dexterity is the art of manipulating objects not just with fingers, but by using the environment itself. I modeled the complex friction mechanics involved in pushing a grasped object against external surfaces (a "quasi-static action") to reorient it. Using a Mixed-Linear Complementarity Problem formulation, I could predict exactly how much force was needed to break the grasp equilibrium and slide the object into a new pose.</p>
+    <p>Files: <a href="/assets/files/ihm.pdf" target="_blank" rel="noopener">Report</a></p>
+    <p>On Extrinsic Dexterity: <a href="https://www.youtube.com/watch?v=ZiqC9emBk00" target="_blank" rel="noopener">MCube Lab</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/bondgraph.png" alt="Bond-Graph" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Study Project) Bond-Graph based Modeling and Simulation of BallBot</h3>
+      <p>Most robots rely on stable wheelbases; the BallBot relies on active control. It is a robot that balances on a single spherical wheel, actuated by three omniwheels, effectively functioning as a 3D inverted pendulum. I explored two aspects: modeling this highly unstable, multi-degree-of-freedom system using <em>Bond-Graphs</em>, and developing a control strategy to keep it upright and mobile.</p>
+      <p>Files: <a href="/assets/files/Ballbot.pdf" target="_blank" rel="noopener">Report</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/catch.png" alt="Optimal Control VSA" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Study Project) Optimal Control of Variable Stiffness Actuator for a Catching Task</h3>
+      <p>Humans don't move with constant rigidity; we stiffen our muscles to lift heavy loads and relax them for fast, fluid motion. This project applied that biological principle to robotics through Variable Stiffness Actuators (VSAs). I conducted a review of optimal control strategies for these actuators and simulated their performance in dynamic tasks, such as catching a ball, where the robot must instantly optimize its stiffness to absorb impact energy efficiently.</p>
+      <p>Files: <a href="/assets/files/OptimalControl.pdf" target="_blank" rel="noopener">Report</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/StewartPlatform.jpg" alt="Stewart Platform" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Design Project) Design, Manufacture and Control of a Stewart Platform</h3>
+      <p>This project was a complete "design-to-build" journey for a 6-DOF Stewart Platform, the classic parallel manipulator used in flight simulators. I handled the kinematic analysis and simulation, but also the manufacturing process flow to fabricate the actual hardware. To interface with the machine, I developed a custom Graphical User Interface (GUI) in Processing, allowing for intuitive manual control of the platform's orientation.</p>
+      <p>Files: <a href="/assets/files/Stewart.pdf" target="_blank" rel="noopener">Report</a></p>
+      <p>Video: <a href="https://www.youtube.com/watch?v=9KdgB3Wsj1o" target="_blank" rel="noopener">Demo</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/transporter.png" alt="Transporter" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Competition) Transporter</h3>
+      <p>For the Transporter event at IIT Kharagpur, I designed an autonomous robot challenged with a complex logistics problem: navigating a grid to detect blocks and deposit them into specific pits while avoiding obstacles. The "brain" of the robot relied on Dijkstra’s Algorithm for shortest-path planning around hazards and the Hungarian Algorithm to optimize the assignment of blocks to pits, ensuring the most efficient route possible.</p>
+      <p>Video: <a href="https://www.youtube.com/watch?v=prgx9VOacDw" target="_blank" rel="noopener">In Action</a></p>
+    </div>
+  </div>
+
+  <div class="project-item row my-4 align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/assets/img/badminton.jpg" alt="Robocon" class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h3>(Competition) Robocon</h3>
+      <p>As the Mechanical Lead for Team Robocon BITS Pilani, I was tasked with building a robot capable of playing a competitive game of Badminton Doubles. We focused on a design that prioritized agility and speed. The robot featured a 3-DOF holonomic drive (using omni-wheels) to strafe across the court, coupled with a high-speed Pneumatic Rotary Actuator for the racquet, allowing it to execute quick, powerful swings.</p>
+      <p>Video: <a href="https://www.youtube.com/watch?v=fy6i93Ss-2M" target="_blank" rel="noopener">Shuttle Dispensing Mechanism</a></p>
+      <p>Video: <a href="https://www.youtube.com/watch?v=BXtIiuM2V1g" target="_blank" rel="noopener">BITS Pilani vs LJIET A’BAD</a></p>
+      <p>Video: <a href="https://www.youtube.com/watch?v=2S57EKUTvcs" target="_blank" rel="noopener">BITS Pilani vs PCCOE 2</a></p>
+    </div>
+  </div>
+
+</div>
