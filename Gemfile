@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby "3.4.8"
-
 gem "jekyll", "~> 4.3.3"
 gem "webrick"            # needed for `jekyll serve` on Ruby 3+
 gem "base64"             # Ruby 3.4 does not ship it by default

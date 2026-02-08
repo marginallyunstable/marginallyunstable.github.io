@@ -1,9 +1,8 @@
 ---
 ---
 
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
+/* Bootstrap SCSS imports removed for GitHub Pages compatibility.
+  Using CDN Bootstrap in head-custom.html instead. */
 
 main {
   flex: 1 0 auto;
@@ -50,37 +49,37 @@ footer {
 
 @media (min-width: 1200px) {
   .inter-banner {
-    @include font-size(2rem);
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1400px) {
   .inter-banner {
-    @include font-size(2.5rem);
+    font-size: 2.5rem;
   }
 }
 
 .subhead {
 	font-family: "EB Garamond", serif;
 	font-weight: 400;
-  @include font-size(1.25rem);
+  font-size: 1.25rem;
 }
 
 @media (min-width: 500px) {
   .subhead {
-    @include font-size(1.5rem);
+    font-size: 1.5rem;
   }
 }
 
 // hack to fix some cursed line wrapping
 @media (min-width: 1200px) {
   .subhead {
-    @include font-size(1.5rem);
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1400px) {
   .subhead {
-    @include font-size(1.5rem);
+    font-size: 1.5rem;
   }
 }
 
@@ -126,7 +125,7 @@ a:not(:has(> img)):hover::after {
 }
 
 .links a {
-  @include font-size(1.5rem);
+  font-size: 1.5rem;
 }
 
 /* Reduce spacing between tagline and links and slightly shrink link text */
@@ -154,26 +153,26 @@ a:not(:has(> img)):hover::after {
 
 @media (min-width: 500px){
   .links a {
-    @include font-size(1.25rem)
+    font-size: 1.25rem;
   }
 }
 
 @media(min-width: 768px){
 .links a {
 	// font-family: "Inter", sans-serif;
-	@include font-size(1.5rem);
+  font-size: 1.5rem;
 }
 }
 
 @media (min-width: 1200px) {
   .links a {
-    @include font-size(1.5rem);
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 1400px) {
   .links a {
-    @include font-size(1.5rem);
+    font-size: 1.5rem;
   }
 }
 
