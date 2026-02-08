@@ -1,1 +1,0 @@
-This is the source code for Preston Culbertson's website: [https://pculbertson.github.io](https://pculbertson.github.io). Free free to clone, fork, and remix this code to your heart's desire. Built with GitHub Pages, Bootstrap, and Jekyll.
