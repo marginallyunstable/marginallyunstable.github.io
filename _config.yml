@@ -39,6 +39,7 @@ sass:
 collections:
   - papers
   - highlights
+  - notes
 
 # Exclude from processing.
 # The following items will not be processed, by default.

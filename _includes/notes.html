@@ -4,4 +4,19 @@
       <p>Short ongoing collection of learnings and articles from my PhD — work in progress.</p>
     </div>
   </div>
+  
+  {% assign notes_sorted = site.notes | sort: "date" | reverse %}
+  {% for note in notes_sorted %}
+    <div class="row">
+        <hr />
+    </div>
+    <div class="row justify-content-center py-3">
+        <div class="col-12 note my-auto">
+            <p><b>{{note.title}}</b> <span class="text-muted" style="float:right;">{{ note.date | date: "%B %d, %Y" }}</span></p> 
+            <div class="note-content">
+                {{ note.content }}
+            </div>
+        </div>
+    </div>
+  {% endfor %}
 </div>
