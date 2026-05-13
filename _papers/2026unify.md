@@ -4,6 +4,7 @@ authors: "Ajinkya Bhole, Mohammad Mahmoudi Filabadi, Guillaume Crevecoeur, Tom L
 date: 2026-12-09 # keep 2026 
 image: assets/img/central_eqn.png
 pdf: https://arxiv.org/pdf/2512.06109
+poster: /assets/files/2026%20FAIR-ResearchDay-POSTER.pdf
 location: IFAC
-notes: Under Review.
+notes: Accepted to IFAC 2026.
 ---

@@ -19,6 +19,7 @@
             <p class="venue"> {% if paper.location %} <i>{{paper.location}},</i> {% endif %}{{paper.date | date: "%Y"}}. <i><b> {{paper.notes}} </b></i></p>
             <p> <b><span class="text-danger">{{paper.awards}}</span></b> </p>
             <p> {% if paper.pdf %} [<a href="{{paper.pdf}}">paper</a>]  {% endif %}
+                {% if paper.poster %} [<a href="{{paper.poster}}">poster</a>] {% endif %}
                 {% if paper.website %} [<a href="{{paper.website}}">project page</a>] {% endif %}
                 {% if paper.code %} [<a href="{{paper.code}}">code</a>] {% endif %}
                 {% if paper.video %} [<a href="{{paper.video}}">video</a>] {% endif %} </p>
